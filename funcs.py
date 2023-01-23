@@ -1,11 +1,14 @@
 def addition(a, b):
+    '''
+    Функция складывает 2 числа
+    '''
     (a, b) = input().split()
-    print(int(a) + int(b))
+    return (int(a) + int(b))
 
 
-def subtraction (a, b):
+def subtraction(a, b):
+    '''
+    Функция вычитает 1 число из 2
+    '''
     (a, b) = input().split()
-    print(int(a) - int(b))
-
-
-
+    return (int(a) - int(b))
